@@ -5,45 +5,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: OJSBR\n"
 "Language-Team: OJSBR\n"
-"Language: nb_NO\n"
+"Language: fr_FR\n"
 
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.displayName"
-msgstr "EPUB.js-leser"
+msgstr "Lecteur EPUB.js"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.description"
-msgstr "Viser EPUB-filversjoner i en innebygd leser basert på epub.js."
+msgstr "Affiche les épreuves EPUB dans un lecteur intégré basé sur epub.js."
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.previous"
-msgstr "Forrige"
+msgstr "Précédent"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.next"
-msgstr "Neste"
+msgstr "Suivant"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.toc"
-msgstr "Innholdsfortegnelse"
+msgstr "Table des matières"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.noScript"
-msgstr "Denne leseren krever JavaScript."
+msgstr "Ce lecteur nécessite JavaScript."
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.loadError"
-msgstr "EPUB-filen kunne ikke vises i nettleseren."
+msgstr "Impossible d'afficher l'EPUB dans le navigateur."
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.mode"
-msgstr "Lesemodus: to sider, én side eller rulling"
+msgstr "Mode de lecture : deux pages, une page ou défilement"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.zoomIn"
-msgstr "Øk tekststørrelsen"
+msgstr "Agrandir le texte"
 
-#, fuzzy
 msgid "plugins.generic.epubJsViewer.zoomOut"
-msgstr "Reduser tekststørrelsen"
+msgstr "Réduire le texte"

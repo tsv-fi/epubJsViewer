@@ -18,16 +18,16 @@ use PKP\tests\PKPTestCase;
 
 class LocaleFilesTest extends PKPTestCase
 {
-    /** Locale codes shipped by the plugin, as OJS 3.5 names them. */
+    /** Locale codes shipped by the plugin, as OJS 3.4 names them. */
     public const LOCALES = [
         'ar', 'az', 'bg', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 'eu',
-        'fa', 'fi', 'fr', 'fr_CA', 'gl', 'hu', 'hy', 'id', 'it', 'ja', 'ka',
-        'mk', 'ms', 'nb_NO', 'nl', 'pl', 'pt', 'pt_BR', 'ro', 'ru', 'sl', 'sr_Latn',
+        'fa', 'fi', 'fr_CA', 'fr_FR', 'gl', 'hu', 'hy', 'id', 'it', 'ja', 'ka',
+        'mk', 'ms', 'nb', 'nl', 'pl', 'pt_BR', 'pt_PT', 'ro', 'ru', 'sl', 'sr@latin',
         'sv', 'tr', 'uk', 'vi', 'zh_Hans',
     ];
 
     /** Locales reviewed by a fluent speaker; every entry of the others is marked fuzzy. */
-    public const REVIEWED = ['en', 'pt', 'pt_BR', 'es', 'ca', 'gl', 'fr', 'fr_CA', 'it', 'de', 'nl'];
+    public const REVIEWED = ['en', 'pt_PT', 'pt_BR', 'es', 'ca', 'gl', 'fr_FR', 'fr_CA', 'it', 'de', 'nl'];
 
     public const MASTER = 'en';
 
@@ -60,7 +60,7 @@ class LocaleFilesTest extends PKPTestCase
         $expected = self::LOCALES;
         sort($expected);
 
-        // A code from another OJS line (fr vs fr_FR, pt vs pt_PT) silently never loads.
+        // A code from another OJS line (fr_FR vs fr, pt_PT vs pt) silently never loads.
         $this->assertSame($expected, $dirs);
         $this->assertCount(count(self::LOCALES), $this->files());
     }

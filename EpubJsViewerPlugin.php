@@ -124,8 +124,15 @@ class EpubJsViewerPlugin extends GenericPlugin
             return Hook::CONTINUE;
         }
 
-        // The publication of the URL: the handler has already resolved the version.
-        $publication = $handler->publication ?? $submission->getCurrentPublication();
+        // The publication of the URL. In 3.4 CatalogBookHandler::download() does not set
+        // $handler->publication, but the core has checked that the format belongs to it.
+        $publication = null;
+        foreach ($submission->getData('publications') as $candidate) {
+            if ($candidate->getId() == $publicationFormat->getData('publicationId')) {
+                $publication = $candidate;
+                break;
+            }
+        }
         if (!$publication) {
             return Hook::CONTINUE;
         }

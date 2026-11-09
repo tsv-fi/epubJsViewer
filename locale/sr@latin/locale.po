@@ -5,35 +5,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: OJSBR\n"
 "Language-Team: OJSBR\n"
-"Language: pt\n"
+"Language: sr@latin\n"
 
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.displayName"
-msgstr "Visualizador EPUB.js"
+msgstr "Prikazivač EPUB.js"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.description"
-msgstr "Apresenta composições EPUB num leitor integrado baseado em epub.js."
+msgstr "Prikazuje EPUB prikaze u ugrađenom čitaču zasnovanom na epub.js."
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.previous"
-msgstr "Anterior"
+msgstr "Prethodno"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.next"
-msgstr "Seguinte"
+msgstr "Sledeće"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.toc"
-msgstr "Índice"
+msgstr "Sadržaj"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.noScript"
-msgstr "Este leitor necessita de JavaScript."
+msgstr "Ovaj čitač zahteva JavaScript."
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.loadError"
-msgstr "Não foi possível apresentar o EPUB no navegador."
+msgstr "EPUB nije moguće prikazati u pregledaču."
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.mode"
-msgstr "Modo de leitura: duas páginas, uma página ou deslocamento"
+msgstr "Režim čitanja: dve stranice, jedna stranica ili klizanje"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.zoomIn"
-msgstr "Aumentar o texto"
+msgstr "Povećaj veličinu teksta"
 
+#, fuzzy
 msgid "plugins.generic.epubJsViewer.zoomOut"
-msgstr "Diminuir o texto"
+msgstr "Smanji veličinu teksta"

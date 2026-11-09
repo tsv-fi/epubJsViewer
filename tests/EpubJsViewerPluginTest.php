@@ -15,11 +15,12 @@
 namespace APP\plugins\generic\epubJsViewer\tests;
 
 use APP\plugins\generic\epubJsViewer\EpubJsViewerPlugin;
-use PHPUnit\Framework\Attributes\CoversClass;
 use PKP\plugins\Hook;
 use PKP\tests\PKPTestCase;
 
-#[CoversClass(EpubJsViewerPlugin::class)]
+/**
+ * @covers \APP\plugins\generic\epubJsViewer\EpubJsViewerPlugin
+ */
 class EpubJsViewerPluginTest extends PKPTestCase
 {
     private function template(): string
